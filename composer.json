@@ -1,0 +1,15 @@
+{
+    "name": "mahfuzphp/laravel-vendor-package",
+    "description": "A vendor package for laravel 4,5",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*"
+     },
+    "autoload": {
+        "psr-4": {
+            "Mahfuzphp\\Package\\": "src/"
+        }
+    }
+}
